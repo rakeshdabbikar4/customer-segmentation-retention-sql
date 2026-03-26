@@ -79,3 +79,21 @@ https://www.kaggle.com/datasets/tunguz/online-retail
 ---
 
 ## 📁 Project Structure
+customer-segmentation-retention-sql/
+
+│
+
+├── analysis.sql
+
+├── README.md
+
+└── screenshots/
+
+---
+
+## 💡 Conclusion
+This project demonstrates strong SQL skills including:
+- Data cleaning
+- Aggregations
+- Case statements
+- Business insights generation
