@@ -1,56 +1,54 @@
 # Customer Segmentation & Retention Analysis (SQL)
 
-## Business Problem
-Analyze e-commerce transaction data to identify customer behavior, revenue trends, and key business insights for better decision-making.
+## 📌 Project Overview
+This project analyzes an e-commerce dataset using SQL to uncover:
+- Customer segmentation
+- Revenue trends
+- Top customers
+- Country-wise performance
 
 ---
 
-## Project Overview
-This project uses SQL to analyze an online retail dataset and extract insights related to sales performance, customer segmentation, and geographic trends.
+## 📊 Dataset
+Dataset is too large to upload.
+
+Download from Kaggle:  
+https://www.kaggle.com/datasets/tunguz/online-retail
 
 ---
 
-## Objectives
-- Analyze monthly revenue trends
-- Identify top customers by spending
-- Perform customer segmentation
-- Analyze country-wise revenue
-- Generate actionable business insights
-
----
-
-## Tools & Technologies
+## 🛠 Tools Used
 - SQL (SQLite)
 - DB Browser for SQLite
 
 ---
 
-## Dataset
-The dataset used in this project is the Online Retail Dataset.
+## 📈 Key Analysis
 
-Due to file size limitations on GitHub, the dataset is not included in this repository.
+### 1. Data Cleaning
+- Removed null CustomerID
+- Removed negative/zero quantity & price
 
-You can download it from Kaggle:
-https://www.kaggle.com/datasets/tunguz/online-retail
+### 2. Monthly Revenue Trend
+- Calculated revenue over time
 
-After downloading, load the dataset into SQLite and run the queries provided in `analysis.sql`.
+### 3. Top Customers
+- Identified highest spending customers
+
+### 4. Customer Segmentation
+- High Value (>5000)
+- Medium Value (2000–5000)
+- Low Value (<2000)
+
+### 5. Country Analysis
+- Revenue contribution by country
+
+### 6. Top Products
+- Highest revenue-generating products
 
 ---
 
-## Key Insights
-- Sales increased steadily with a peak in late 2011, indicating strong seasonal demand.
-- High-value customers contribute a significant portion of total revenue.
-- The United Kingdom dominates overall sales compared to other countries.
-- A small segment of customers drives the majority of business revenue.
-
----
-
-## SQL Queries
-All queries are available in `analysis.sql`
-
----
-
-## Screenshots
+## 📸 Screenshots
 
 ### Monthly Revenue
 ![Monthly Revenue](screenshots/monthly_revenue.png)
@@ -72,12 +70,12 @@ All queries are available in `analysis.sql`
 
 ---
 
-## How to Use
-1. Download the dataset from Kaggle  
-2. Load it into SQLite using DB Browser  
-3. Run queries from `analysis.sql`  
+## 🚀 Key Insights
+- Sales show strong growth trend over time
+- A small group of customers contributes majority of revenue
+- United Kingdom dominates revenue share
+- High-value customers are critical for business growth
 
 ---
 
-## Author
-Rakesh Dabbikar
+## 📁 Project Structure
