@@ -1,11 +1,14 @@
 # Customer Segmentation & Retention Analysis (SQL)
 
 ## 📌 Project Overview
+
 This project analyzes an e-commerce dataset using SQL to uncover:
 - Customer segmentation
 - Revenue trends
 - Top customers
 - Country-wise performance
+
+Built end-to-end SQL analysis from raw dataset to business insights
 
 ---
 
